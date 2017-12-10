@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Penumbra Gaming</title>
+
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link href="css/styleMain.css" rel="stylesheet">
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div id="snow">
+	</div>
+  <!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h4 class="modal-title" id="myModalLabel">Issue Submitted</h4>
+		  </div>
+		  <div class="modal-body">
+			Thank you, we will have a look at the submitted issue and contact you if needed.
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" style="color:white;"data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  
+  
+ <nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+	  <img alt="Penumbra Gaming" src="" height: 25px></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+		<li>
+		<a href="index.html">
+		Home
+		</a>
+		</li>
+			<li class="active">
+			<a href="about.html">
+			About
+			</a>
+			</li>
+        <li>
+		<a href="shop.html">
+		Portfolio
+		</a>
+		</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account 
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
+				</ul>
+			</li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+  
+<div> 
+	<div class="jumbotron">
+		<h1>About Us</h1>
+		<br>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at fermentum sem, congue aliquam massa. 
+			Nam nec dolor purus. Sed dictum sem magna, sit amet fermentum purus accumsan ut. Nulla lacinia quam faucibus massa facilisis interdum. 
+			Morbi tempor blandit nisl at pretium. Nunc et pretium nulla, quis laoreet dolor. Phasellus rhoncus enim mi, vitae feugiat leo semper ac. 
+			Sed venenatis lacinia nibh id vulputate. Duis id purus consectetur, malesuada libero eu, sagittis ipsum. 
+			Suspendisse dictum nulla quis ipsum varius pharetra. Sed porta sapien risus, vitae egestas enim ornare tempor. 
+			Donec non commodo purus, non volutpat nunc.
+		</p>
+	</div>
+	
+	
+	
+	
+<div class = "container text-center"> 
+	
+	<div class="row">
+		<div class="col-md-5 block">
+			<div class="thumbnail">
+				
+				<div class="caption">
+					<h3>Contact Details</h3>
+					<p style= "text-align: left">
+					Call us at: 0800 00 1066 
+					<br><br>
+					Want to reach us by E-mail? Contact@PenGaming.com 
+					<br>
+					Need help for something? Support@PenGaming.com 
+					<br><br>
+					PO Box: Lorem Ipsum 420, Dat Herb Rd. <br>
+					<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="col-md-7 block">
+			<div class="thumbnail thumbnail2">
+				<div class="caption">
+					<h3>Send Us A Ticket</h3>
+					<div>
+					  <form action="/action_page.php"style= "text-align: left">
+						<label for="fname">Name :</label>
+						<input type="text" id="name" name="fullname" placeholder="Your name">
+						<br>
+						<label for="lname">E-mail:</label>
+						<input type="text" id="email" name="emailInp" placeholder="Your E-mail">
+						<br><br>
+						<textarea name="Text1" rows="3" placeholder="What's the issue?"></textarea>	
+							<br><br>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+						  Submit
+						</button>
+						
+					  </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+</div>	
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+	<div class="modal-dialog">
+		<div class="loginmodal-container">
+			<h2>Login to Your Account</h2><br>
+			<form>
+				<input type="text" name="user" placeholder="Username">
+				<input type="password" name="pass" placeholder="Password">
+				<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+			</form>
+							
+			<div class="login-help">
+			<a href="#">Register</a> - <a href="#">Forgot Password</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+	<div class="modal-dialog">
+		<div class="loginmodal-container">
+			<h2>Create an Account</h2><br>
+			<form>
+				<input type="text" name="user" placeholder="Username">
+				<input type="password" name="pass" placeholder="Password">
+				<input type="password" name="pass" placeholder="Confirm Password">
+				<input type="submit" name="login" class="login loginmodal-submit" value="Create your account!">
+			</form>
+							
+			<div class="login-help">
+			<a href="#">Register</a> - <a href="#">Forgot Password</a>
+			</div>
+		</div>
+	</div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+  </body>  
+</html>

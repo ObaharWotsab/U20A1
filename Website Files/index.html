@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Penumbra Gaming</title>
+
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/styleIndex.css" rel="stylesheet">
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  <div id=snow>
+  </div>
+ <nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+	  <img alt="Penumbra Gaming" src="" height: 25px></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+		<li class="active">
+		<a href="index.html">
+		Home
+		</a>
+		</li>
+			<li>
+			<a href="about.html">
+			About
+			</a>
+			</li>
+        <li>
+		<a href="shop.html">
+		Portfolio
+		</a>
+		</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account 
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
+				</ul>
+			</li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+  
+<div> 
+	<br><br><br><br>
+	<div class="jumbotron" style= "text-align: center">
+		<h1>Penumbra Gaming</h1>
+		<p>Home to everything gaming, from new releases to classics and everything in between!</p>
+	</div>
+	
+	
+	
+	
+<div class = "container text-center"> 
+	
+	<div class="row" style= "text-align: center">
+		<div class="col-md-4 block">
+			<div class="thumbnail" style="background-color: #750000 !important;">
+				
+				<div class="caption">
+					<h3>Top Grossing Games</h3>
+					<ol>
+					<li>Game </li>
+					<li>Game </li>
+					<li>Game </li>
+					<li>Game </li>
+					<li>Game </li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+		<div class="col-md-4 block">
+			<div class="thumbnail thumbnail2" style="background-color: #750000 !important;">
+				<div class="caption">
+					<h3>Recently Added Games</h3>
+					<ol>
+						<li>Game</li>
+						<li>Game</li>
+						<li>Game</li>
+						<li>Game</li>
+						<li>Game</li>
+					</ol> 
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4 block">
+			<div class="thumbnail thumbnail2" style="background-color: #750000 !important;">
+				<div class="caption">
+					<h3>Upcoming Games</h3>
+					<ol>
+						<li>Game</li>
+						<li>Game</li>
+						<li>Game</li>
+						<li>Game</li>
+						<li>Game</li>
+					</ol> 
+				</div>
+			</div>
+		</div>
+</div>
+
+</div>
+</div>	
+	
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+	<div class="modal-dialog">
+		<div class="loginmodal-container">
+			<h2>Login to Your Account</h2><br>
+			<form>
+				<input type="text" name="user" placeholder="Username">
+				<input type="password" name="pass" placeholder="Password">
+				<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+			</form>
+							
+			<div class="login-help">
+			<a href="#" data-toggle="modal" data-target="#register-modal">Register</a> - <a href="#">Forgot Password</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+	<div class="modal-dialog">
+		<div class="loginmodal-container">
+			<h2>Create an Account</h2><br>
+			<form>
+				<input type="text" name="user" placeholder="Username">
+				<input type="password" name="pass" placeholder="Password">
+				<input type="password" name="pass" placeholder="Confirm Password">
+				<input type="submit" name="login" class="login loginmodal-submit" value="Create your account!">
+			</form>
+							
+			<div class="login-help">
+			</div>
+		</div>
+	</div>
+</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+  </body>  
+</html>
